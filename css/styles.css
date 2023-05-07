@@ -28,12 +28,6 @@ ul {
   padding-left: 0;
 }
 
-    ::after, ::before {
-        box-sizing: border-box;
-    }
-    .active::after{
-        background-color: #141414;
-    }
 
     .title {
         font-style: normal;
@@ -247,8 +241,8 @@ line-height: 14px;
     
     .container {
     min-width:768px ;
-     margin-left: 32px;
-      margin-right: 32px;
+     margin-left: 40px;
+      margin-right: 40px;
     }
     
     .title {
@@ -446,6 +440,15 @@ color: #1E2827;
             }
             .active::after{
                 background-color: #141414;
+            }
+            .active::after {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 1px;
+                border-radius: 2px;
+                bottom: -30px;
+                left: 770px;
             }
         }
             
