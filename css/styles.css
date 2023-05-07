@@ -276,7 +276,7 @@ color: #1E2827;
     }
 
     .img-watch{
-        width: 400px;
+        width: 350px;
   height: auto;
     }
     .new-watch-list li{
@@ -338,10 +338,10 @@ color: #1E2827;
         
         .big-img {
           position: absolute;
-            width: 420px;
+            width: 440px;
             height: 628px;
-            left: 300px;
-            top: 820px;
+            left: 311px;
+            top: 775px;
             background:#141414
             
             
@@ -376,7 +376,7 @@ color: #1E2827;
          .salen-text{
           position: absolute;
             left: 100px;
-            top: 1570px;
+            top: 1525px;
             font-style: normal;
             font-weight: 400;
             font-size: 12px;
