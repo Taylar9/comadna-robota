@@ -483,8 +483,8 @@ color: #1E2827;
     margin-top: 8px;
     }
     .img-watch{
-        Width:auto;
-        Height:auto;
+        Width:576px;
+        Height:422px;
     }
     
     
@@ -501,8 +501,7 @@ color: #1E2827;
 
 /* ------------------sale-------------------------- */
 .sale-section {
-    background: #EFEFEF;   
-    padding-bottom: 50px;
+   padding-bottom: 50px;
      }
 .divider {
         position: absolute;
@@ -553,7 +552,7 @@ color: #1E2827;
          .line{
         padding-top: 25px;
         border-bottom: 1px solid black;
-          margin-right: 150px;
+          margin-right: 300px;
          }
         .sale-watch {
         position: absolute; 
@@ -585,33 +584,32 @@ color: #1E2827;
             .sale-description {
                 position: absolute; 
                 top: 150px;
-                margin-right: 150px;
+                margin-right: 300px;
                 line-height: 18px;
                 letter-spacing: -0.01em;
                 color: rgba(20, 20, 20, 0.5);
                 }
              .line-2{
-            padding-top: 415px;
+            padding-top: 300px;
             border-bottom: 1px solid black;
-           
+            margin-right: 300px;
             }
         
             .details-text {
             position: absolute;   
-            top: 250px;
+            top: 340px;
             width: 198px;
             height: 24px;
            font-family: 'Epilogue';
            font-style: normal;
            font-weight: 400;
-            font-size: 18px;
-           line-height: 24px;
+            font-size: 16px;
+           line-height: 20px;
            letter-spacing: -0.02em;
           text-transform: uppercase;
            color: #141414;}
 
-        
-           .sale-list {
+        .sale-list {
          padding-left: 97px;
          padding-top: 80px;
         }
@@ -646,11 +644,9 @@ color: #1E2827;
         
         }
         
-        
-        
         .gender-text {
             position: absolute;
-            top: 490px;
+            top: 355px;
             font-size: 14px;
           letter-spacing: -0.01em;
            color: rgba(20, 20, 20, 0.5);
