@@ -265,16 +265,22 @@ line-height: 14px;
     color: rgb(0, 144, 0);
     }
 
+    .img-watch{
+        width: 400px;
+  height: auto;
+    }
+    .new-watch-list li{
+        width: calc((100%-90px));
+    }
     .new-watch {
       margin-top: 128px;
-      
+    
     }
     
     .new-watch-item {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    
     padding: 0px;
     gap: 20px;
     }
@@ -316,15 +322,16 @@ line-height: 14px;
             gap: 10px;
         }
         .sale-item{
+            padding-left: 98px;
             
         }
         
         .big-img {
           position: absolute;
-            width: 450px;
+            width: 420px;
             height: 628px;
-            left: 200px;
-            top: 969px;
+            left: 300px;
+            top: 840px;
             background:#141414
             
             
@@ -466,10 +473,13 @@ line-height: 14px;
     letter-spacing: -0.02em;
     color: #1E2827;
     margin-top: 8px;
-    
-    
-    
     }
+    .img-watch{
+        Width:576px;
+        Height:422px;
+    }
+    
+    
     .new-watch-list {
         margin-top: 80px;
        
